@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+input{
+    width:300px;
+    padding:10px;
+    margin:15px 0;
+}
+
+button{
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+#imgBox{
+    margin-top:20px;
+}
+
+#qrImage{
+    width:200px;
+}
