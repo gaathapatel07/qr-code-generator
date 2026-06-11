@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let qrImage = document.getElementById("qrImage");
 let qrText = document.getElementById("qrText");
 let loader = document.getElementById("loader");
@@ -62,3 +63,21 @@ qrText.addEventListener("keypress", function(event){
         generateQR();
     }
 });
+=======
+let qrImage = document.getElementById("qrImage");
+let qrText = document.getElementById("qrText");
+
+function generateQR() {
+
+    if(qrText.value.length > 0){
+
+        qrImage.src =
+        "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data="
+        + encodeURIComponent(qrText.value);
+
+    }
+    else{
+        alert("Please enter text");
+    }
+}
+>>>>>>> 7b9564659127bce8469a65fc79de89b593ccccb1
